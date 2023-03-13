@@ -25,6 +25,7 @@ class Comp1 extends React.Component {
             <div>
             <button onClick={(i)=> {this.Ozgarish(i)}}>Ismingiz</button>
             <span>{ this.state.count}</span>
+            <p>salom</p>
             <button onClick={(i)=> {this.kamayuvchi(i)}}>Familiyangiz</button>
             </div>
          );
